@@ -1,0 +1,19 @@
+{
+  "format": "nexo-prelaunch-android-candidate-v1",
+  "version": "1.0.30",
+  "versionCode": 31,
+  "applicationId": "com.nexoisrael.app",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "architectures": [
+    "arm64-v8a"
+  ],
+  "fullStandaloneAPK": true,
+  "sizeBytes": 51753499,
+  "sha256": "7d95491c4e15d21eaa53ac8d3abaa5386a91cc56be82f35e0a29cb391b8d8ab4",
+  "certificateSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "originalSigningLineagePreserved": true,
+  "sourceCommit": "bef7ec8ce2eb8fed2fab87b7c718cc4346895811",
+  "physicalDeviceAcceptance": "PENDING",
+  "primaryUpdateFeedChanged": false
+}
