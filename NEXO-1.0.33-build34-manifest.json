@@ -1,0 +1,50 @@
+{
+  "fileName": "NEXO-1.0.33-build34-arm64.apk",
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.33",
+  "build": 34,
+  "architecture": "arm64-v8a",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": false,
+    "v3": true,
+    "v3.1": false,
+    "v4": false
+  },
+  "signingLineage": [
+    {
+      "sha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+      "active": false,
+      "installedData": true,
+      "sharedUid": false,
+      "permission": true,
+      "rollback": false,
+      "auth": false
+    },
+    {
+      "sha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+      "active": true,
+      "installedData": true,
+      "sharedUid": true,
+      "permission": true,
+      "rollback": false,
+      "auth": true
+    }
+  ],
+  "release": true,
+  "sha256": "bb77657acb6fc990cd4b2ec79b6c76b2fa5a8f61100d7ee1d39c0178f7968fbe",
+  "sizeBytes": 47661595,
+  "signerSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "sourceCommit": "f127a21f046f029aeb89399e01a853f01afbd91a",
+  "builtAt": "2026-11-02T14:21:15.448Z",
+  "distribution": "original-app-release-candidate",
+  "deviceTested": false,
+  "zipAlignment": {
+    "alignmentBytes": 4,
+    "pageAlignmentKiB": 16,
+    "verified": true
+  },
+  "supabaseProject": "ibyzhadplngbwmopcyrb"
+}
