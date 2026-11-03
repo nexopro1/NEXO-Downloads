@@ -1,0 +1,98 @@
+{
+  "fileName": "NEXO-1.0.38-build41-arm64-device-test.apk",
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.38",
+  "build": 41,
+  "architecture": "arm64-v8a",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": false,
+    "v3": true,
+    "v3.1": false,
+    "v4": false
+  },
+  "signingLineage": [
+    {
+      "sha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+      "active": false,
+      "installedData": true,
+      "sharedUid": false,
+      "permission": true,
+      "rollback": false,
+      "auth": false
+    },
+    {
+      "sha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+      "active": true,
+      "installedData": true,
+      "sharedUid": true,
+      "permission": true,
+      "rollback": false,
+      "auth": true
+    }
+  ],
+  "release": true,
+  "sha256": "feb9cd0a6f1226469e141332bd845802f5cad3c6a6eaf4e2f9e42f59c436bfef",
+  "sizeBytes": 52309654,
+  "signerSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "sourceCommit": "fc5e3d971125ebdefe25358825edc6379b05351d",
+  "builtAt": "2026-11-03T19:18:06.981Z",
+  "distribution": "google-play-channel-manual-device-test-candidate",
+  "deviceTested": false,
+  "zipAlignment": {
+    "alignmentBytes": 4,
+    "pageAlignmentKiB": 16,
+    "verified": true
+  },
+  "candidateOnly": true,
+  "publicationStatus": "BLOCKED",
+  "embeddedDistributionChannel": "google-play",
+  "derivedFromVerifiedAab": true,
+  "sourceAabSha256": "fb624bf368414850301be7ba2104bd49bafee19715fc814ff2576689c25ef684",
+  "hermesSha256": "d8cf4f4b1370d4110a4e62bb71a9f8c68f39cfbd0cfe4967e26eb133c393c930",
+  "sourceMapParityVerified": true,
+  "routerRoutesVerified": 87,
+  "fullContentComparisonVerified": true,
+  "allUniversalApkEntriesPreserved": 1320,
+  "arm64NativeLibrariesVerified": 26,
+  "elfAndZip16KiBAlignmentVerified": true,
+  "googleSignInCodeIncluded": true,
+  "googleProviderEnabledAtLastReadOnlyCheck": false,
+  "liveGoogleLoginTested": false,
+  "authIntegrationTests": {
+    "passed": 116,
+    "failed": 0,
+    "skipped": 0
+  },
+  "typescriptAndEslintPassed": true,
+  "newPurchasesAvailable": false,
+  "remotePushCommissioned": false,
+  "backendChangesDeployed": false,
+  "playAppSigningVerified": false,
+  "upgradeCompatibilityVerified": false,
+  "published": false,
+  "buildProvenance": {
+    "incrementalGradleRelease": true,
+    "nativeAndDependencyInputsUnchanged": true,
+    "freshMetroAndHermesForced": true,
+    "frozenSourceAndAllRouterEntriesVerified": true,
+    "sourceParityAndSignedBinaryBindingIndependentlyVerified": true,
+    "canonicalSigningAndArchiveChecksPassed": true,
+    "losslessZipPacking": true,
+    "maxApkBytesUnchanged": 52428800
+  },
+  "limitations": [
+    "Manual owner testing only; not a Google Play rollout",
+    "Google OAuth client/provider configuration and live Google login still pending",
+    "No physical Android installation or upgrade test performed",
+    "Google Play purchases and remote Push remain uncommissioned",
+    "Prepared backend and legal changes are not deployed; Play release remains blocked"
+  ],
+  "delivery": {
+    "purpose": "manual-owner-device-test",
+    "storePublished": false,
+    "directUpdateFeedChanged": false
+  }
+}
