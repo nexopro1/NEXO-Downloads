@@ -1,0 +1,80 @@
+{
+  "fileName": "NEXO-1.0.37-build39-arm64-device-test.apk",
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.37",
+  "build": 39,
+  "architecture": "arm64-v8a",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": false,
+    "v3": true,
+    "v3.1": false,
+    "v4": false
+  },
+  "signingLineage": [
+    {
+      "sha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+      "active": false,
+      "installedData": true,
+      "sharedUid": false,
+      "permission": true,
+      "rollback": false,
+      "auth": false
+    },
+    {
+      "sha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+      "active": true,
+      "installedData": true,
+      "sharedUid": true,
+      "permission": true,
+      "rollback": false,
+      "auth": true
+    }
+  ],
+  "sha256": "28334958520b33b44ce4f6bab5e65d2e17b1cf7a8f28fa4de98c01bc387e63e6",
+  "sizeBytes": 52280248,
+  "signerSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "sourceCommit": "9516885d176c3dd936fb5bc7e5475b90bdd65eb8",
+  "builtAt": "2026-11-03T18:05:39.432Z",
+  "distribution": "google-play-channel-manual-device-test-candidate",
+  "deviceTested": false,
+  "zipAlignment": {
+    "alignmentBytes": 4,
+    "pageAlignmentKiB": 16,
+    "verified": true
+  },
+  "candidateOnly": true,
+  "publicationStatus": "BLOCKED",
+  "derivedFromVerifiedAab": true,
+  "sourceAabSha256": "2d37e660b148801cb8935c48d0fd99d5a0047d538a94143f0bd7fe3ad9a46c26",
+  "applicationCodeRebuilt": false,
+  "embeddedDistributionChannel": "google-play",
+  "fullContentComparisonVerified": true,
+  "allUniversalApkEntriesPreserved": 1314,
+  "arm64NativeLibrariesVerified": 26,
+  "elfAndZip16KiBAlignmentVerified": true,
+  "compiledNativeGuidanceAndBillingPresent": true,
+  "permissionsAndBackupPolicyVerified": true,
+  "newPurchasesAvailable": false,
+  "productIdConfigured": false,
+  "basePlanIdConfigured": false,
+  "remotePushCommissioned": false,
+  "backendChangesDeployed": false,
+  "playAppSigningVerified": false,
+  "upgradeCompatibilityVerified": false,
+  "published": false,
+  "limitations": [
+    "Manual owner device testing only; not a Google Play rollout",
+    "New Google Play subscriptions remain disabled until real product/base-plan and server commissioning",
+    "Remote Push not commissioned; local manually selected reminders remain separate",
+    "Prepared backend/policy changes have not been deployed",
+    "Real Android installation, upgrade, Play-generated APK signature and16KiB emulator tests not performed"
+  ],
+  "delivery": {
+    "purpose": "manual-owner-device-test",
+    "storePublished": false,
+    "directUpdateFeedChanged": false
+  }
+}
