@@ -1,0 +1,130 @@
+{
+  "fileName": "NEXO-1.0.38-build42-arm64-device-test.apk",
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.38",
+  "build": 42,
+  "architecture": "arm64-v8a",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": false,
+    "v3": true,
+    "v3.1": false,
+    "v4": false
+  },
+  "signingLineage": [
+    {
+      "sha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+      "active": false,
+      "installedData": true,
+      "sharedUid": false,
+      "permission": true,
+      "rollback": false,
+      "auth": false
+    },
+    {
+      "sha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+      "active": true,
+      "installedData": true,
+      "sharedUid": true,
+      "permission": true,
+      "rollback": false,
+      "auth": true
+    }
+  ],
+  "release": true,
+  "sha256": "3c49ea4b5815f2cd401bd566cfbd0fc202db9a68812b0a32e420eb1a78b62f21",
+  "sizeBytes": 42938720,
+  "signerSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "sourceCommit": "3f8b098b57690086727ca0f42dbaee6000827237",
+  "builtAt": "2026-11-03T23:48:01.606Z",
+  "distribution": "google-play-channel-manual-native-google-device-test-candidate",
+  "deviceTested": false,
+  "zipAlignment": {
+    "alignmentBytes": 4,
+    "pageAlignmentKiB": 16,
+    "verified": true
+  },
+  "embeddedDistributionChannel": "google-play",
+  "candidateOnly": true,
+  "publicationStatus": "BLOCKED",
+  "published": false,
+  "upgradeCompatibilityVerified": false,
+  "playAppSigningVerified": false,
+  "nativeGoogleSignInImplemented": true,
+  "androidCredentialManager": "1.6.0",
+  "googleIdLibrary": "1.2.0",
+  "androidBrowserFallback": false,
+  "googleIdTokenStored": false,
+  "googleSecretEmbedded": false,
+  "googleNonceChecksDisabled": false,
+  "googleProviderEnabledAtLastReadOnlyCheck": true,
+  "compiledPublicWebClientMatchesLiveProvider": true,
+  "androidOAuthClientCreationReportedByOwner": true,
+  "androidOAuthClientConfigurationInspected": false,
+  "realNativeGoogleSignInTested": false,
+  "brandVerificationInspected": false,
+  "derivedFromVerifiedAab": true,
+  "sourceAabSha256": "676b5bd8eb77812053e3ad2fba84be8efa8edc306d45625a6dd73538c6b254b0",
+  "hermesSha256": "a47c4e9bb63ee13a0cd73041f15db61f97e011d29f1368cf99db76250bb18922",
+  "sourceMapParityVerified": true,
+  "routerRoutesVerified": 87,
+  "sourceNativeClassesPreserved": 107,
+  "sourceNativeMethodsPreserved": 719,
+  "compiledNativeGoogleCallsIndependentlyVerified": true,
+  "allUnsignedApkPayloadsPreserved": 1332,
+  "fullContentComparisonVerified": true,
+  "arm64NativeLibrariesVerified": 26,
+  "elfAndZip16KiBAlignmentVerified": true,
+  "authRuntimeTests": {
+    "passed": 169,
+    "failed": 0,
+    "skipped": 0
+  },
+  "nativeCoordinatorJvmChecks": {
+    "passed": 31,
+    "failed": 0
+  },
+  "typescriptAndEslintPassed": true,
+  "releasePipelineChecks": {
+    "googleAndProfilePassed": 151,
+    "originalBuildArchiveSigningPassed": 101,
+    "failed": 0,
+    "skipped": 0
+  },
+  "r8Enabled": true,
+  "resourceShrinkingEnabled": false,
+  "allPackagedVisualResourcesUnchanged": true,
+  "visualResourceEntriesCompared": 1028,
+  "resourceTableUnchanged": true,
+  "nativeLibrariesAndHermesUnchangedByR8": true,
+  "newPurchasesAvailable": false,
+  "remotePushCommissioned": false,
+  "backendChangesDeployed": false,
+  "signerSha1": "32:2F:71:6C:45:C5:F4:BF:75:BA:78:0C:F0:80:71:CC:A2:EB:40:1A",
+  "buildProvenance": {
+    "fullNativeBuildForGoogleModulePassed": true,
+    "nativeImplementationCommit": "49827941f2684e1611117d887e54a5e3c7e95352",
+    "controlledIncrementalR8Release": true,
+    "onlyReleaseProfileAndKeepRulesChanged": true,
+    "freshMetroAndHermesForced": true,
+    "canonicalFreshCheckoutGuardUnchanged": true,
+    "sourceMappingActualDexAndBinaryBindingIndependentlyVerified": true,
+    "canonicalSigningAndArchiveChecksPassed": true,
+    "maxApkBytesUnchanged": 52428800,
+    "resourceShrinkingEnabled": false
+  },
+  "delivery": {
+    "purpose": "manual-owner-native-google-device-test",
+    "storePublished": false,
+    "directUpdateFeedChanged": false
+  },
+  "limitations": [
+    "Manual signed Android owner testing only; not a Google Play rollout",
+    "Real Android installation, upgrade and native Google account selection/nonce exchange remain untested on a device",
+    "Google Android client registration is owner-reported; its account/project/package/signature settings require a real signed-device sign-in test",
+    "Google brand verification remains separate; Google may display provider-owned system/consent UI",
+    "Prepared billing, remote Push, backend and legal work is not commissioned/deployed; Play publication still has separate blockers"
+  ]
+}
