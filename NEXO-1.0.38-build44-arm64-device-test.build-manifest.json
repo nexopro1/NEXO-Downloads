@@ -1,0 +1,141 @@
+{
+  "fileName": "NEXO-1.0.38-build44-arm64-device-test.apk",
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.38",
+  "build": 44,
+  "architecture": "arm64-v8a",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": false,
+    "v3": true,
+    "v3.1": false,
+    "v4": false
+  },
+  "signingLineage": [
+    {
+      "sha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+      "active": false,
+      "installedData": true,
+      "sharedUid": false,
+      "permission": true,
+      "rollback": false,
+      "auth": false
+    },
+    {
+      "sha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+      "active": true,
+      "installedData": true,
+      "sharedUid": true,
+      "permission": true,
+      "rollback": false,
+      "auth": true
+    }
+  ],
+  "release": true,
+  "sha256": "5710709bf0f0e50ed2fd7d4f7244d13719c831109468c32b6d154ca44041900e",
+  "sizeBytes": 42938816,
+  "signerSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "sourceCommit": "02fefde43573eb6e66449965b36a8d443336c62b",
+  "builtAt": "2026-11-04T10:51:09.120Z",
+  "distribution": "google-play-channel-manual-native-google-account-sheet-candidate",
+  "deviceTested": false,
+  "zipAlignment": {
+    "alignmentBytes": 4,
+    "pageAlignmentKiB": 16,
+    "verified": true
+  },
+  "candidateOnly": true,
+  "publicationStatus": "BLOCKED",
+  "publishedToGooglePlay": false,
+  "automaticUpdateFeedChanged": false,
+  "physicalInstallTested": false,
+  "physicalUpgradeTested": false,
+  "upgradeCompatibilityVerified": false,
+  "nativeGoogleSignInEndToEndTested": false,
+  "playAppSigningVerified": false,
+  "sourceAabSha256": "c93df86ad6945df7b9358724bc9c3fd8f49d0940fee221ebfa5446e4c5d5d2f9",
+  "hermesSha256": "e4bf86458491cc66eb26bc854223d55be7ed11b2e4ad193e1abcbfe40525f1c9",
+  "sourceMapParityVerified": true,
+  "routerRoutesVerified": 87,
+  "compiledNativeGoogleFlowsAndCallsVerified": true,
+  "nativeSourceClassesPreserved": 114,
+  "nativeSourceMembersPreserved": 749,
+  "actualR8InputRuntimeJarsVerified": true,
+  "allUnsignedApkPayloadsPreserved": 1333,
+  "arm64NativeLibrariesVerified": 26,
+  "elfAndZip16KiBAlignmentVerified": true,
+  "nativeGoogleSignInImplemented": true,
+  "nativeAccountSheet": {
+    "option": "GetGoogleIdOption",
+    "filterByAuthorizedAccounts": false,
+    "autoSelectEnabled": false
+  },
+  "nativeExplicitFallback": {
+    "option": "GetSignInWithGoogleOption",
+    "onlyAfter": "NoCredentialException",
+    "maximumRequestsPerUserPress": 2,
+    "retriesCancellation": false,
+    "eachRequestHasOneOption": true,
+    "sameWebAudienceAndNonce": true
+  },
+  "androidBrowserFallback": false,
+  "googleClientSecretEmbedded": false,
+  "nativeNonceChallengeImplemented": true,
+  "nonceVerificationBypassAdded": false,
+  "cancellationDiagnostics": {
+    "G00": "unknown",
+    "G01": "primary_provider_cancellation",
+    "G02": "host_activity_destroyed",
+    "G03": "explicit_logout_clear",
+    "G04": "module_destroyed",
+    "G05": "js_clear_superseded",
+    "G06": "explicit_provider_cancellation"
+  },
+  "diagnosticPersistence": false,
+  "rawProviderErrorsOrCredentialsExposed": false,
+  "androidAndWebClientProjectPrefixesMatch": true,
+  "androidClientTypeObservedInOwnerScreenshot": true,
+  "androidPackageAndSha1ProvidedByOwnerMatchApk": true,
+  "androidClientConfigurationConfirmedByLiveDeviceSignIn": false,
+  "signerSha1": "32:2F:71:6C:45:C5:F4:BF:75:BA:78:0C:F0:80:71:CC:A2:EB:40:1A",
+  "authRuntimeTests": {
+    "passed": 169,
+    "failed": 0,
+    "skipped": 0
+  },
+  "nativeSdkRuntimeChecks": {
+    "passed": 191,
+    "coordinatorAndPrivacy": 80,
+    "selectionFlow": 111,
+    "failed": 0
+  },
+  "typescriptAndEslintPassed": true,
+  "productionAudit": {
+    "high": 0,
+    "critical": 0
+  },
+  "r8Enabled": true,
+  "resourceShrinkingEnabled": false,
+  "allVisualResourcesAndNativeLibrariesByteIdenticalToBuild43": true,
+  "visualAndNativePayloadEntriesCompared": 1055,
+  "resourceTableByteIdenticalToBuild43": true,
+  "artProfilesBoundToCurrentDexCrcsAndMethods": true,
+  "newPurchasesAvailable": false,
+  "remotePushCommissioned": false,
+  "liveBackendChangedByAgent": false,
+  "mainMerged": false,
+  "officialSiteDeployed": false,
+  "changes": [
+    "Native account sheet before a bounded separate explicit Google request if the provider reports NoCredential",
+    "Cancellation, other failures, stale callbacks and replaced Activities never open another request",
+    "Finite in-memory failure origins allow the owner to report a short support reference"
+  ],
+  "limitations": [
+    "Manual signed-device test candidate; actual installation, upgrade and Google sign-in require owner device verification",
+    "The previous native failure has not been conclusively attributed to a specific cause; this supported alternate native flow is not a proven device fix",
+    "No production OAuth authorization was added for the shared legacy debug certificate",
+    "Google Play publication remains blocked by separate commissioning, policy and acceptance requirements"
+  ]
+}
