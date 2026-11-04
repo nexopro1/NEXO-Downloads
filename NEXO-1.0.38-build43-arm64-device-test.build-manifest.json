@@ -1,0 +1,115 @@
+{
+  "fileName": "NEXO-1.0.38-build43-arm64-device-test.apk",
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.38",
+  "build": 43,
+  "architecture": "arm64-v8a",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": false,
+    "v3": true,
+    "v3.1": false,
+    "v4": false
+  },
+  "signingLineage": [
+    {
+      "sha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+      "active": false,
+      "installedData": true,
+      "sharedUid": false,
+      "permission": true,
+      "rollback": false,
+      "auth": false
+    },
+    {
+      "sha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+      "active": true,
+      "installedData": true,
+      "sharedUid": true,
+      "permission": true,
+      "rollback": false,
+      "auth": true
+    }
+  ],
+  "release": true,
+  "sha256": "5683076ea510d06635f12196e87a16f0c5a7b5587c2e8750502eee5db16a4182",
+  "sizeBytes": 42938720,
+  "signerSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "sourceCommit": "d03f41f731a52ec44d3ca23014708adbdadcd420",
+  "builtAt": "2026-11-04T08:39:38.569Z",
+  "distribution": "google-play-channel-manual-native-google-sign-in-fix-candidate",
+  "deviceTested": false,
+  "zipAlignment": {
+    "alignmentBytes": 4,
+    "pageAlignmentKiB": 16,
+    "verified": true
+  },
+  "candidateOnly": true,
+  "publicationStatus": "BLOCKED",
+  "publishedToGooglePlay": false,
+  "automaticUpdateFeedChanged": false,
+  "physicalInstallTested": false,
+  "physicalUpgradeTested": false,
+  "nativeGoogleSignInEndToEndTested": false,
+  "playAppSigningVerified": false,
+  "sourceAabSha256": "2d633c15bcce899d4fc6f07bb59670e58b347c79dcb9a732a3738a06838c5c50",
+  "hermesSha256": "627d684791bc3f8c7123bb5a42a4911d94c4ef5725ac06f435095d3555be1dd2",
+  "sourceMapParityVerified": true,
+  "routerRoutesVerified": 87,
+  "compiledNativeGoogleRegistrationAndCallsVerified": true,
+  "nativeSourceClassesPreserved": 107,
+  "nativeSourceMembersPreserved": 719,
+  "allUnsignedApkPayloadsPreserved": 1332,
+  "arm64NativeLibrariesVerified": 26,
+  "elfAndZip16KiBAlignmentVerified": true,
+  "nativeGoogleSignInImplemented": true,
+  "androidBrowserFallback": false,
+  "googleClientSecretEmbedded": false,
+  "nativeNonceChallengeImplemented": true,
+  "nonceVerificationBypassAdded": false,
+  "androidOAuthClientIdReportedByOwner": "968010387634-3e3e4nl3i7d9m0u03u2usbn0fs3m6gat.apps.googleusercontent.com",
+  "androidAndWebClientProjectPrefixesMatch": true,
+  "androidClientTypeObservedInOwnerScreenshot": true,
+  "androidPackageAndSha1ProvidedByOwnerMatchApk": true,
+  "androidClientConfigurationConfirmedByLiveDeviceSignIn": false,
+  "signerSha1": "32:2F:71:6C:45:C5:F4:BF:75:BA:78:0C:F0:80:71:CC:A2:EB:40:1A",
+  "authRuntimeTests": {
+    "passed": 164,
+    "failed": 0,
+    "skipped": 0
+  },
+  "rootTransitionRegression": {
+    "baselineFailed": 12,
+    "baselineControlPassed": 1,
+    "fixedPassed": 13
+  },
+  "typescriptAndEslintPassed": true,
+  "productionAudit": {
+    "high": 0,
+    "critical": 0
+  },
+  "r8Enabled": true,
+  "resourceShrinkingEnabled": false,
+  "allResFilesAndNonJavaScriptAssetsAndNativeLibrariesByteIdenticalToBuild42": true,
+  "visualAndNativePayloadEntriesCompared": 1057,
+  "resourceTableByteIdenticalToBuild42": false,
+  "resourceTableIdsConfigurationsAndValuesIdenticalToBuild42": true,
+  "resourceTableChange": "19 optional type-count/preallocation hints normalized to zero; official aapt and aapt2 resource values are identical",
+  "newPurchasesAvailable": false,
+  "remotePushCommissioned": false,
+  "liveBackendChangedByAgent": false,
+  "mainMerged": false,
+  "officialSiteDeployed": false,
+  "fixes": [
+    "Preserve the original auth and callback screens during primary-session account import so verified completion can navigate",
+    "Keep account access and runtime safety checks enforced on destination routes",
+    "Show a neutral retry notice when native Google selection ends without completing sign-in"
+  ],
+  "limitations": [
+    "Manual signed-device test candidate; actual installation, upgrade and Google sign-in require owner device verification",
+    "The exact cause of the last native device attempt is not conclusively established by the reproduced root-layout defect",
+    "Google Play publication remains blocked by separate commissioning, policy and acceptance requirements"
+  ]
+}
