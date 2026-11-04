@@ -1,0 +1,70 @@
+{
+  "fileName": "NEXO-1.0.38-build46-arm64-device-test.apk",
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.38",
+  "build": 46,
+  "architecture": "arm64-v8a",
+  "minSdk": 33,
+  "targetSdk": 36,
+  "signatureSchemes": {
+    "v1": false,
+    "v2": false,
+    "v3": true,
+    "v3.1": false,
+    "v4": false
+  },
+  "signingLineage": [
+    {
+      "sha256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+      "active": false,
+      "installedData": true,
+      "sharedUid": false,
+      "permission": true,
+      "rollback": false,
+      "auth": false
+    },
+    {
+      "sha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+      "active": true,
+      "installedData": true,
+      "sharedUid": true,
+      "permission": true,
+      "rollback": false,
+      "auth": true
+    }
+  ],
+  "release": true,
+  "sha256": "bc495c4469bb1e6e5ecc57b4ab6ba8b4bebe752f4c058353bf09cd79e1105bb5",
+  "sizeBytes": 42955200,
+  "signerSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "sourceCommit": "f088c64271ae255ac0ca6e19a2f3ce89e2a3896d",
+  "builtAt": "2026-11-04T20:42:11.896Z",
+  "distribution": "manual-device-test",
+  "deviceTested": false,
+  "zipAlignment": {
+    "alignmentBytes": 4,
+    "pageAlignmentKiB": 16,
+    "verified": true
+  },
+  "candidateOnly": true,
+  "android16NativeCompatibilityApi": "Google SignInClient.getSignInIntent",
+  "compatibilityApiDeprecated": true,
+  "nonceVerificationRetained": true,
+  "originalSignatureAndLineageRetained": true,
+  "nativeRuntimeChecks": 602,
+  "authRuntimeTests": 173,
+  "artifactVerification": {
+    "nativeClasses": 122,
+    "nativeMembers": 801,
+    "allDexAndCriticalAabPayloadsMatch": true,
+    "approved45VisualNativePayloadsByteIdentical": 1056,
+    "unchangedPermissionCount": 33,
+    "arm64Libraries16KiBAligned": 26
+  },
+  "googleNativeSignInEndToEndTested": false,
+  "googlePlayPublished": false,
+  "officialUpdateFeedChanged": false,
+  "replacesInstalledBuild": 45,
+  "sourceBranch": "feat/google-play-readiness-20261103",
+  "appInitiatesExternalBrowserInCode": false
+}

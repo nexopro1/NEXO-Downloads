@@ -1,11 +1,8 @@
-# NEXO Android diagnostic test — Build 45
+# NEXO — גרסת בדיקה ידנית 46
 
-Version 1.0.38, Build 45. Original com.nexoisrael.app signer and lineage.
+גרסה 1.0.38, Android ARM64, לבדיקת כניסה מקורית באמצעות Google ב־Android 16.
+התקנה כעדכון לאפליקציה הקיימת, בלי להסיר אותה.
 
-[Download APK](NEXO-1.0.38-build45-arm64-device-test.apk) · [Build manifest](NEXO-1.0.38-build45-arm64-device-test.build-manifest.json)
+הגרסה בוחרת מראש במסלול Google PendingIntent מקורי ב־API 36, עם אותו Web client ואימות nonce בשרת. אין מעבר לדפדפן. בגרסאות Android אחרות נשאר Credential Manager. המסלול משתמש ב־API ציבורי של Google שהוצא משימוש ומבודד כתאימות זמנית לבדיקה; כניסה במכשיר עדיין לא אומתה.
 
-Diagnostic-only candidate; native Google sign-in is not yet verified on the owner device. The authentication flow remains the same as Build 44; a finite first-provider status can now accompany the support reference. No raw provider/account/token details are returned or persisted. No browser fallback.
-
-173 authentication tests and 487 actual native SDK checks passed. Original signing, all approved Build 44 visual/native payloads and resource table verified. Installation, physical upgrade and real Google login remain unverified. No Play rollout or automatic update-feed change.
-
-Source: 91de2812a2b3c0fe0218cb3f6db530f41d75e0bc
+חתימת האפליקציה המקורית ושרשרת החתימה נשמרו. הקובץ עבר בדיקות תוכן, קוד DEX, הרשאות וחתימה. זו אינה הפצה ב־Google Play ואינה עדכון אוטומטי. לא נטען שהתקלה נפתרה במכשיר לפני ניסיון כניסה מוצלח.
