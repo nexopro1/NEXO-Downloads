@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "applicationId": "com.nexoisrael.app",
+  "version": "1.0.38",
+  "versionCode": 46,
+  "fileName": "NEXO-1.0.38-build46-google-play-arm64.aab",
+  "sizeBytes": 33871871,
+  "sha256": "298a3b3e592072f74fb35444385586cc54d91df9626931c8a36ef4e3c9acb9c5",
+  "sourceCommit": "f088c64271ae255ac0ca6e19a2f3ce89e2a3896d",
+  "distributionChannel": "google-play",
+  "purpose": "Manual upload to an internal-testing draft",
+  "candidateOnly": true,
+  "productionReady": false,
+  "uploadedToGooglePlay": false,
+  "signerCertificateSha256": "09778e3de32a3881b543036bd17f9160c90c095edfffd370b6d2d748b8feb014",
+  "localVerification": {
+    "jarSignatureVerified": true,
+    "all1356ArchiveEntriesInspected": true,
+    "all26Arm64Libraries16KiBAligned": true,
+    "compiledManifestVerified": true
+  },
+  "playGeneratedApkUpgradeAndSignInVerified": false,
+  "newSubscriptionPurchaseActive": false,
+  "remainingBeforeProduction": [
+    "Play-generated app installation, upgrade and native Google login checks",
+    "New subscription purchase and Takbull Parent lifecycle verification",
+    "Public legal information and deletion/retention evidence",
+    "Required store declarations, device testing and Google review"
+  ]
+}

@@ -1,11 +1,10 @@
-# NEXO — בדיקת היסטוריית חתימה
+# NEXO — Google Play internal-testing candidate
 
-קובץ בדיקה ידני עם אותו קוד ומפתח חתימה פרטי נוכחי כמו גרסה 46, ללא היסטוריית החתימה הישנה בבלוק החתימה. מספר הגרסה נשאר 46 במכוון.
+Verified signed App Bundle for manual upload to a Google Play internal-testing draft.
 
-מיועד להתקנה כעדכון מעל גרסה 46 שכבר מותקנת במפתח הנוכחי. באמצעות ADB: התקנה עם האפשרות `install -r`. ההתקנה במכשיר עדיין דורשת בדיקה.
+- Package: `com.nexoisrael.app`
+- Version: `1.0.38`, build `46`
+- Source: `f088c64271ae255ac0ca6e19a2f3ce89e2a3896d`
+- File: `NEXO-1.0.38-build46-google-play-arm64.aab`
 
-כל 1,333 פריטי התוכן, הקוד, המניפסט והספריות זהים לגרסה 46 המאומתת. חתימת v3 נבדקה בכלי Android SDK מול API 33–36, עם אותו חותם פרטי וללא היסטוריה.
-
-זהו חריג חד פעמי שאושר לבדיקה. בדיקת השחרור הרגילה נותרה ללא שינוי ודוחה במכוון את החריג הזה. עדכון ישיר מגרסאות עתיקות שעדיין חתומות רק במפתח ההיסטורי אינו נתמך בקובץ זה.
-
-הקובץ אינו הפצה ב־Google Play, אינו חלק מעדכון אוטומטי, ואינו הוכחה שהכניסה באמצעות Google תוקנה לפני בדיקה מוצלחת בטלפון.
+Download the `.aab` file and upload it to the existing internal-testing draft. The manifest and SHA256SUMS identify the exact verified artifact. Production readiness, Google-generated APK upgrade/login, subscriptions and other operational release checks remain pending.
